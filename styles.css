@@ -95,8 +95,8 @@ body{
 }
 
 .online-game-container{
-   min-height: 50px;
-    display: flex;gap:25px;margin: 50px auto;
+   min-height: 50px;display: flex;
+    gap: 25px;margin: 50px auto;
 
 }
 .online-game-section h2,.instant-play-title{
@@ -129,6 +129,8 @@ body{
 .game-card figcaption{
     text-align: left;
 }
+
+/* bonus section */
 /* .Dark{
     position: relative;
 }
@@ -136,16 +138,14 @@ body{
     opacity: 1;
     transition: .2s ease;
   }
-.dark p i{
-    display: none;
 
-} 
 .darker-image{
     transition:0.2 ease;opacity:0;position: absolute;top: 50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);text-align: center;
 }  
 .Dark:hover img{
-    opacity: 0.3;
-  }
+    opacity: 0.3;background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+}
+  
 .Dark:hover .darker-image{
     opacity: 1;
   } 
