@@ -138,6 +138,9 @@ body{
 .instant-play-text{
     width: 50%;border: 1px solid green;text-align: right;padding-top: 50px;
 }
+.instant-play-des{
+    padding-left: 200px;
+}
 .instant-play-images{
     width: 50%;min-height: 450px;border: 1px solid blue;position: relative;
 
@@ -147,4 +150,36 @@ body{
 }
 .instant-play-images .image2{
     width: 35%;height: 50%;position: absolute;bottom: 0px;left: 70px;
+}
+/* game-option starts */
+/* game-option ends */
+/* footer starts */
+footer{
+    text-align: center;background: #0B0223;color: #FFF;font-size: 16px;
+    font-weight: 400;padding-bottom: 50px;
+    
+}
+.footer-logo{
+    min-height: 50px;padding: 20px ;display: flex;
+    justify-content: center;align-items: center;
+
+}
+.footer-logo img{
+    margin-right: 20px; object-fit: cover;
+}
+.footer-logo h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-text{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;justify-content: space-around;padding: 10px 250px; 
+}
+.footer-icons .fa-brands{
+    color: #FFF; padding: 10px 20px;font-size: 25px;
+}
+.footer-terms-condition{
+    
+    display: flex;justify-content: space-around;padding: 10px 300px; 
 }

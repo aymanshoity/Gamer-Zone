@@ -45,6 +45,9 @@
     .instant-play-text{
         width: 100%;text-align: center;padding-top: 50px;
     }
+    .instant-play-des{
+        padding: 0px;
+    }
     .instant-play-images{
         width: 100%; height: 100%;position: relative;margin-top: 50px;
     
@@ -55,6 +58,21 @@
     .instant-play-images .image2{
         width: 40%;height: 50%;absolute;bottom: 0px;left: 0px;
     }
+    /*  */
+    /*  */
+    /*footer starts  */
+    footer{
+        padding: 100px 30px;
+    }
+    
+    .footer-text,.footer-icons{
+       padding: 10px;margin: 0;
+        display: grid;grid-template-columns: repeat(3,1fr);
+    }
+    .footer-terms-condition{
+        padding: 10px;margin: 0;
+         display: grid;grid-template-columns: repeat(2,1fr);
+     }
 
 
 
@@ -81,7 +99,7 @@
         flex-direction: column-reverse;margin-top: 30px;gap: 20px;
     }
     .banner-text{
-        width:100%;margin: 0;
+        width:100%;margin: 0;padding: 50px;
     }
     .banner-text div{
         width:100%;padding: 50px;text-align: center;
@@ -90,7 +108,7 @@
         width: 100%;
     } 
     .banner-image img{
-        width: 100%;padding: 20px;
+        width: 100%;padding: 50px;
     } 
     /* banner ends */
     /* online-game section starts */
@@ -111,6 +129,9 @@
     .instant-play-text{
         width: 100%;text-align: center;padding-top: 50px;
     }
+    .instant-play-des{
+        padding: 30px;
+    }
     .instant-play-images{
         width: 100%; height: 100%;position: relative;margin-top: 50px;
     
@@ -121,6 +142,24 @@
     .instant-play-images .image2{
         width: 30%;height: 50%;position:absolute;bottom: 0px;left: 40px;
     }
+
+
+       /*  */
+    /*  */
+    /*footer starts  */
+    footer{
+        padding: 100px 30px;
+    }
+    
+    .footer-text{
+       padding: 10px;margin: 0;
+        display: grid;grid-template-columns: repeat(3,1fr);
+    }
+    .footer-terms-condition{
+        padding: 10px;margin: 0;
+         display: grid;grid-template-columns: repeat(2,1fr);
+     }
+
 
     
 }
