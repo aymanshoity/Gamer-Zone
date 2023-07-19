@@ -8,21 +8,21 @@ body{
 }
 /* nav bar starts */
 .nav-container{
-    max-width: 1200px;border:1px solid red;min-height: 50px;margin: 0 auto;display: flex;align-items: center;
+    max-width: 1200px;min-height: 50px;margin: 0 auto;display: flex;justify-content: center;align-items: center;
 }
 .nav-logo{
-    width:50%;border: 1px solid green;display: flex;align-items: center;
+    width:50%;;display: flex;align-items: center;
 
 }
 .nav-logo img{
-    width:70px;height: 30px;border: 1px solid salmon;margin-right: 20px; object-fit: cover;
+    width:70px;height: 30px;margin-right: 20px; object-fit: cover;
 }
 .nav-logo h1{
-    border: 1px solid slateblue;font-size: 45px;
+   font-size: 45px;
     font-weight: 700;
 }
 .nav-item-container{
-    width:50%;border: 1px solid blue;display: flex; justify-content: space-between;align-items: center;
+    width:50%;display: flex; justify-content: space-between;align-items: center;
 }
 .nav-item-container a{
     text-decoration: none;color: #3C354F;
@@ -43,15 +43,15 @@ body{
 /* navbar ends */
 /* banner part starts */
 .banner-container{
-    border: 1px solid green;min-height: 500px;margin: 0 auto;display: flex;
+    min-height: 500px;margin: 0 auto;display: flex;
     justify-content: center;margin-bottom: 20px;
 }
 .banner-text{
-    width:50%; border:1px solid orangered;
+    width:50%; 
     background-image: url("./images/Group 14.png");
 }
 .banner-text div{
-    border:1px solid #FF42A5;width: 100%;padding: 40px  150px; 
+   width: 100%;padding:  150px; 
 
 }
 /* position: absolute;right: 220px;top: 50px; */
@@ -82,7 +82,7 @@ body{
 }
 
 .banner-image{
-    width:50%; border:1px solid blue;
+    width:50%; 
 }
 .banner-image img{
     width: 80%;height: 100%;
@@ -95,7 +95,7 @@ body{
 }
 
 .online-game-container{
-    border:1px solid red;min-height: 50px;
+   min-height: 50px;
     display: flex;gap:25px;margin: 50px auto;
 
 }
@@ -121,7 +121,7 @@ body{
 }
 
 .game-card{
-    width: 30%;border: 1px solid blue;
+    width: 30%;
 }
 .game-card img{
     width: 100%;display: block;margin: 0 auto;
@@ -129,30 +129,84 @@ body{
 .game-card figcaption{
     text-align: left;
 }
+/* .Dark{
+    position: relative;
+}
+.Dark .img{
+    opacity: 1;
+    transition: .2s ease;
+  }
+.dark p i{
+    display: none;
+
+} 
+.darker-image{
+    transition:0.2 ease;opacity:0;position: absolute;top: 50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);text-align: center;
+}  
+.Dark:hover img{
+    opacity: 0.3;
+  }
+.Dark:hover .darker-image{
+    opacity: 1;
+  } 
+  
+.dark {
+    color: #f7f6f9;font-size: 20px;background-color: #040a08;
+
+} */
+
 /* online-game section ends */
 .instant-play-container{
-    max-width: 1200px ;margin: 50px auto;border:1px solid red;min-height: 450px;
+    max-width: 1200px ;margin: 50px auto;min-height: 450px;
     display: flex;
 
 }
 .instant-play-text{
-    width: 50%;border: 1px solid green;text-align: right;padding-top: 50px;
+    width: 50%;text-align: right;padding-top: 50px;
 }
 .instant-play-des{
     padding-left: 200px;
 }
 .instant-play-images{
-    width: 50%;min-height: 450px;border: 1px solid blue;position: relative;
+    width: 50%;min-height: 450px;position: relative;
 
 }
 .instant-play-images .image1{
     width: 70%;height: 100%;position: absolute;right: 0px;
 }
 .instant-play-images .image2{
-    width: 35%;height: 50%;position: absolute;bottom: 0px;left: 70px;
+    width: 35%;height: 50%;position: absolute;bottom: -40px;left: 70px;
 }
-/* game-option starts */
-/* game-option ends */
+/* game-zone starts */
+.game-container{
+   max-width: 1200px ;margin: 100px auto;min-height: 300px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;flex-wrap: wrap;justify-content: center;align-items: center;gap: 20px;
+}
+.game-container button{
+    display: flex;justify-content: center;align-items: center;border-radius: 40px;border: 1px solid transparent;
+    padding: 10px 20px;gap: 20px;background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    
+}
+.game-container button:hover{
+    border:1px solid #F948B2 ;color: #F948B2;
+    cursor: pointer;
+}
+.game-container img{
+    width:30px;height: 30px;
+}
+.game-container p{
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 400;
+}
+p:hover{
+    color: #F948B2
+}
+
+
+
+/* game-zone ends */
 /* footer starts */
 footer{
     text-align: center;background: #0B0223;color: #FFF;font-size: 16px;
